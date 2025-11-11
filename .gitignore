@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+Output/
+*.png
+*.txt
+.DS_Store
