@@ -18,24 +18,22 @@ Download or copy the entire project folder, which should contain:
 
 Open a terminal (Command Prompt or PowerShell on Windows, Terminal on Mac/Linux)
 Use cd to change directory into the folder that contains Main.py.
-run-
+run: 
   cd path\to\your\project
 
 Install the required Python packages
-run-
+run: 
   python -m pip install -r requirements.txt
 
 Run the program
-run-
+run: 
   python Main.py
 
 Respond to the prompts
-When asked for an isotope file, type its name or path (for example: inputs/U235.json).
+ When asked for an isotope file, type its name or path (for example: inputs/U235.json).
 
 Check your results
-
 After running, an Output/ folder will appear automatically in the project directory.
-
 It will contain:
   crossSection.png
   flux.png
