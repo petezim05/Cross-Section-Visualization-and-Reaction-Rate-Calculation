@@ -4,6 +4,11 @@
 
 This project calculates and plots microscopic fission cross sections, flux distributions, reaction rates, and power density for any pair of isotopic JSON files formatted in the ENDF/B-VIII style.
 
+Files must be in .json format
+
+ensure all libraries are up to date
+ensure files you wish to imput are stored on the same level as Main.py and ProgramLibrary.py
+
 ---
 Install Python
 Go to https://www.python.org/downloads
@@ -21,16 +26,18 @@ Use cd to change directory into the folder that contains Main.py.
 run: 
   cd path\to\your\project
 
-Install the required Python packages
-run: 
-  python -m pip install -r requirements.txt
+Install the required Python packages:
+numpy
+scipy
+matplotlib
 
 Run the program
 run: 
   python Main.py
 
 Respond to the prompts
- When asked for an isotope file, type its name or path (for example: inputs/U235.json).
+ When asked for an isotope file, type its name, for example: U235.json
+ Enriched isotope referes to the more fissile Isotope, for Uranium 235 and 238 that would be 235
 
 Check your results
 After running, an Output/ folder will appear automatically in the project directory.
